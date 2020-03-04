@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Kazan Neft</string>
+  <string name="action_settings">Settings</string>
+  <string name="activity_asset_information">Asset Information</string>
+  <string name="activity_asset_information_asset_name">Asset Name</string>
+  <string name="activity_asset_information_asset_description">Asset Description</string>
+  <string name="activity_asset_information_expired_warratnty">Expired Warratnty</string>
+  <string name="activity_asset_information_format_day">format: dd/gg/nnnn</string>
+</resources>

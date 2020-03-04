@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType = "textPersonName"
+        android:id ="@+id/AssetName"
+        android:hint="@string/activity_asset_information_asset_name"
+    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id= "@+id/Department"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Spinner
+            android:id="@+id/Location"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/AssetGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Spinner
+            android:id="@+id/AccountableParty"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        />
+    </LinearLayout>
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_asset_information_asset_description"
+    />
+    <LinearLayout
+        android:orientation= "horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@android:drawable/ic_menu_my_calendar"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            style="@style/AppTheme"
+        />
+        <EditText
+            android:id="@+id/ExpiredWarratnty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="datetime"
+            android:hint="@string/activity_asset_information_expired_warratnty"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_asset_information_format_day"
+        />
+    </LinearLayout>
+</LinearLayout>
